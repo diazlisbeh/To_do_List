@@ -3,19 +3,28 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>To do List</title>
 </head>
 <body>
-  <nav>
-    <h1>Today</h1>
-  </nav>
-  <section>
-    <div>
-      <input type="checkbox">
-      <p class="description">A description of the task</p>
+  <div class="header-container">
+    <h1 class="header-title">To do List</h1>
+    <button class="header-button"><img src="./Assets/icons/plus-solid.svg" alt=""></button>
+  </div>
+  <div class="task">
+  <div class="task-container">
+    <input type="checkbox" class="task-container__checkbox">
+    <h3 class="task-container__Title">Title of the task</h3>
+    <button class="task-delete"><img src="./Assets/icons/minus-solid.svg" alt=""></button>
+  </div>  
+    <div class="task-details">
+      <p class="task-details__test">Details</p>
+      <button class="task-details__button"><img src="./Assets/icons/arrow-down-solid.svg" alt=""></button>
     </div>
-  </section>
+  </div>  
+
 </body>
 </html>
