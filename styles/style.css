@@ -65,9 +65,14 @@ border-radius: 10px;
 
 .task-container__Title{
   font-family: var(--Font-mono);
+  max-width: 300px;
   
 }
-
+@media only screen and (max-width:400px){
+  .task-container__Title{
+    max-width: 200px;
+  }
+}
 .task-container__checkbox{
   margin-top: 15px;
   width: 27px;
