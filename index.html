@@ -10,21 +10,23 @@
   <title>To do List</title>
 </head>
 <body>
-  <div class="header-container">
+  <div class="seccion">
+  <div class="header-container" id="header-container">
     <h1 class="header-title">To do List</h1>
-    <button class="header-button"><img src="./Assets/icons/plus-solid.svg" alt=""></button>
+    <button class="header-button" id="addTaskButton"><img src="./Assets/icons/plus-solid.svg" alt=""></button>
   </div>
   <div class="task">
   <div class="task-container">
     <input type="checkbox" class="task-container__checkbox">
-    <h3 class="task-container__Title">Title of the task</h3>
+    <h3 class="task-container__Title">Title of the Task</h3>
     <button class="task-delete"><img src="./Assets/icons/minus-solid.svg" alt=""></button>
   </div>  
     <div class="task-details">
       <p class="task-details__test">Details</p>
-      <button class="task-details__button"><img src="./Assets/icons/arrow-down-solid.svg" alt=""></button>
+      <button class="task-details__button" id="deleteTaskButton"><img src="./Assets/icons/arrow-down-solid.svg" alt=""></button>
     </div>
   </div>  
-
+  </div>
+<script src="./src/app.js"></script>
 </body>
 </html>

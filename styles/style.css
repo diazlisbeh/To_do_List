@@ -8,6 +8,12 @@ body{
   --dark-blue:#117BE4;
 }
 
+
+
+.seccion{
+  height: 100vh;
+}
+
 .header-container{
   display: flex;
   justify-content: space-between;
@@ -29,7 +35,11 @@ border-radius: 10px;
   border: none;
 
 }
+.header-button > img{
+  width: 50px;
+  height: 50px;
 
+}
 
 .task{
   background-color: var(--dark-blue);
@@ -38,6 +48,7 @@ padding-right: 10px;
 border-radius: 10px;
 margin-left: 5px;
 margin-right: 5px;
+
 }
 
 
@@ -54,6 +65,7 @@ border-radius: 10px;
 
 .task-container__Title{
   font-family: var(--Font-mono);
+  
 }
 
 .task-container__checkbox{
