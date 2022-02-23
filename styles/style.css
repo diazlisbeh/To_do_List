@@ -105,11 +105,22 @@ border-radius: 10px;
   margin-left: 0;
 }
 
+.details-container{
+  display: inline-block;
+  /* height: 50px; */
+  font-size: large;
+}
+.details-text{
+  font-size: larger;
+}
+.details-input{
+  background: transparent;
+  border: solid 1px black;
+}
 
-
-
-
-
+.display{
+  display:none;
+}
 
 
 
