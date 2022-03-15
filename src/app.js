@@ -37,7 +37,9 @@ addTaskButton.addEventListener("click", addTask = ()=>{
 
   detailsContainer = document.querySelectorAll("#details-container")
   lastDetailsNode = detailsContainer[detailsContainer.length - 1]
-
+  
+console.log(window.localStorage.setItem('todo', JSON.stringify(task)))
+  console.log(window.localStorage)
 
 })
 
@@ -48,9 +50,16 @@ function deleteTask(e){
 
 
 function showDetails (e){
-  let detailsContainer = e.path[3].children[2]
-  let displayF = detailsContainer.classList.toggle("display")
-
+ console.log(e.path[3].children[2].classList.toggle('display')) 
+  console.log(e)
+  
 }
+
+
+console.log(window.localStorage.setItem('todo', JSON.stringify(task)))
+console.log(window.localStorage)
+
+
+
 
 
